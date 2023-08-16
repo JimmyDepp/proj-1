@@ -1,0 +1,92 @@
+@font-face {
+    font-family: font1;
+    src: url(FUNGIS\ Regular.otf);
+}
+@font-face {
+    font-family: font2;
+    src: url(Ilyas.otf);
+}
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.align{
+    width: 50%;
+    margin-left: auto;
+
+}
+body{
+    font-family: font1;
+}
+.container{
+    width: 50%;
+    text-align: center;
+    margin: 100px auto;
+}
+.header{
+    letter-spacing: 2px;
+    word-spacing: 3px;
+}
+form{
+    display: flex;
+    flex-direction: column;
+    margin: 30px 100px;
+}
+form label{
+    margin: 5px 0;
+}
+form input[type="text"], input[type="password"]{
+    height: 55px;
+    margin: 5px 0;
+    border: .5px solid burlywood;
+    border-radius: 3px;
+    padding: 0 15px;
+    font-size: 20px;
+    font-family: font1;
+}
+form a{
+    margin: 10px 0;
+    text-decoration: none;
+    color: lightblue;
+    font-weight: bold;
+}
+form input[type="submit"]{
+    height: 50px;
+    background: cadetblue;
+    font-size: 20px;
+    font-family: font2;
+    border-radius: 2px;
+    color: white;
+    box-shadow: .5px;
+    cursor: pointer;
+}
+.shadow{
+    box-shadow: 1px px 1px silver;
+}
+
+.footer h3{
+    font-size: 16px;
+    opacity: .9 ;
+    margin-left:100px ;
+}
+.footer .images{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    margin-top: 15px;
+}
+.footer .images img{
+    height: 50px;
+    border: .5px solid lightblue;
+    padding: 5px;
+    border-radius: 4px;
+    cursor: pointer;
+} 
+.footer a{
+    
+    float: right;
+    color: burlywood;
+    margin: 20px 100px;
+}
